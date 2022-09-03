@@ -9,8 +9,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: black;
-    color: aliceblue;
+    background-color: #3e6d5c;
+    color: #0d1214;
 }
  
 h1 {
@@ -24,14 +24,29 @@ nav ul {
 }
  
 nav a {
-    color: aliceblue;
+    color: #0d1214;
     font-weight: bold;
     text-decoration: none;
 }
+
+nav a:hover {
+    color: #8fd0cf
+}
+
+
  
 @media screen and (max-width: 768px) {
     header,
     main {
         flex-direction: column;
+    }
+
+    section {
+        padding-right: 0;
+    }
+
+    aside {
+        width: 100%;
+        text-align: center;
     }
 }
