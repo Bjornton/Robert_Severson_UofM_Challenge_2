@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     line-height: 1.5;
+    
 }
  
 header {
@@ -18,11 +19,9 @@ h1 {
 }
 
 nav ul {
-    display: flex;
-    justify-content: space-between;
-    min-width: 300px;
+    display:flex;
 }
- 
+
 nav a {
     color: #0d1214;
     font-weight: bold;
@@ -31,7 +30,27 @@ nav a {
 
 nav a:hover {
     color: #8fd0cf;
-    height: 50px;
+}
+
+.up:hover {
+    box-shadow: inset 0 -3.25em 0 0;
+    color:#351da3;
+    transition-duration: .25s;
+}
+  
+button {
+    background: none;
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: #351da3;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 10px 10px; 
+    border-width: 5px;
+    transition: .25s;
 }
 
 footer {
@@ -61,12 +80,6 @@ footer ul {
     min-width: 300px;
 }
 
-footer li {
-    display: inline;
-    min-width: 100px;
-}
-
- 
 @media screen and (max-width: 768px) {
     header,
     main {
