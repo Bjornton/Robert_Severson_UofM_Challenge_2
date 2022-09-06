@@ -53,6 +53,12 @@ button {
     transition: .25s;
 }
 
+.about {
+    font-style: bold;
+    font-size: 200%;
+    font-family: inherit;
+}
+
 footer {
     display: block;
     text-align: center;
