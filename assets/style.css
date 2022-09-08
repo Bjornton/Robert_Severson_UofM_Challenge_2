@@ -53,37 +53,18 @@ button {
     transition: .25s;
 }
 
-.about {
-    font-style: bold;
-    font-size: 200%;
-    font-family: inherit;
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px;
 }
 
-footer {
-    display: block;
-    text-align: center;
-    padding: 1%;
-    background-color: #3e6d5c;
-    color: #0d1214;
-    font-weight: bold;
-    margin-top: auto;
+.left {
+    width: 25%;
 }
 
-footer a {
-    color: #0d1214;
-    font-weight: bold;
-    text-decoration: none;
-       
-}
-
-footer a:hover {
-    color: #8fd0cf;
-}
-
-footer ul {
-    display: flex;
-    justify-content: space-between;
-    min-width: 300px;
+.right {
+    width: 75%;
 }
 
 @media screen and (max-width: 768px) {
