@@ -35,16 +35,16 @@ nav a:hover {
 .up:hover {
     box-shadow: inset 0 -3.25em 0 0;
     color:#351da3;
-    transition-duration: .25s;
+    transition-duration: 0.5s;
 }
   
 button {
     background: none;
     outline: none;
+    border-bottom: 5px solid #351da3;
     border-top: none;
-    border-right: none;
     border-left: none;
-    border-color: #351da3;
+    border-right: none;
     font: inherit;
     line-height: 1;
     margin: 0.5em;
@@ -55,12 +55,33 @@ button {
 
 .column {
     float: left;
-    padding: 10px;
+    padding: 20px;
     height: 300px;
 }
 
-.left {
+#aboutMe .left {
     width: 25%;
+    text-align: right;
+    background: none;
+    outline: none;
+    border-right: 5px solid #351da3;
+    
+}
+#work .left {
+    width: 25%;
+    text-align: right;
+    background: none;
+    outline: none;
+    border-right: 5px solid #351da3;
+    
+}
+#contact .left {
+    width: 25%;
+    text-align: right;
+    background: none;
+    outline: none;
+    border-right: 5px solid #351da3;
+    
 }
 
 .right {
@@ -80,5 +101,5 @@ button {
     aside {
         width: 100%;
         text-align: center;
-        }
+    }
 }
