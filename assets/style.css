@@ -56,7 +56,8 @@ button {
 .column {
     float: left;
     padding: 20px;
-    height: 300px;
+    height: 200px;
+    margin-bottom: 3em;
 }
 
 #aboutMe .left {
