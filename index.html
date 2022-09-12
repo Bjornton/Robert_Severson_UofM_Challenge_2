@@ -14,10 +14,9 @@
         <h1>Bjornton</h1>
           <nav class="button">
             <ul>
-                <button class="up"><a href="#">About Me</a></button>
-                <button class="up"><a href="#">Work</a></button>
-                <button class="up"><a href="#">Contact Me</a></button>
-                <button class="up"><a href="#">Resume</a></button>
+                <button class="up"><a href="#aboutMe">About Me</a></button>
+                <button class="up"><a href="#pictures">Work</a></button>
+                <button class="up"><a href="#contactInfo">Contact Me</a></button>
             </ul>
           </nav class="button">
     </header>
@@ -27,13 +26,12 @@
           <div class="headerImage">
             <img src="./assets/images/DC_sunset2.JPG">
           </div>
-            <div class="row" id="aboutMe">
-              <div class="column left" id="title">
-                <h1>About Me</h1>
-              </div>
-              <div class="column right" id="info">
-                <p>I am sophomore in Computer Science
-                   at Century College in White Bear Lake, MN. I currently have plans to transfer
+            <nav class="row" id="aboutMe">
+              <aside class="column left" id="title">
+                <h2>About Me</h2>
+              </aside>
+              <article class="column right" id="info">
+                <p>I am sophomore in Computer Science at Century College in White Bear Lake, MN. I currently have plans to transfer
                    to the University of Minnesota with the possiblitity of studying abroad for my
                    senior year. I became interested in programming because of my uncle. One day, he 
                    tried to explain to me the intricacies of programming. But alas, I was beyond confused,
@@ -49,43 +47,51 @@
                    I study Brazilian Jiu Jitsu at Alliance Jiu Jitsu in Hudson, Wisconsin. And I've 
                    been boxing ever since I could hold my hands up to my head, and for the past 3 years
                    I've been transitioning my boxing skills into Muay Thai. For programming, I am most 
-                   experienced in Java and Python. And currently I am sharpening my skills in HTML,
-                   CSS, and Javascript. 
+                   experienced in Java and Python. And currently I am sharpening my skills in HTML, CSS, and Javascript. 
                 </p>
-              </div>
-            </div>
-            <div class="row" id="work">
-              <div class="column left" id="title">
-                <h1>Work</h1>
-              </div>
-              <div class="column right" id="pictures">
-                <div class="grid">
+              </article>
+            </nav>
+          <nav class="row" id="work">
+            <aside class="column left" id="title">
+              <h2>Work</h2>
+            </aside>
+            <article class="column right" id="pictures">
+              <div class="grid">
+                <a href="#" target="_blank">
                   <img class="grid-big-img" src="./assets/images/colorful_water.JPG">
+                </a>
+                <a href="#" target="_blank">
                   <img src="./assets/images/skellington_pumpkin.JPG">
+                </a>
+                <a href="#" target="_blank">
                   <img src="./assets/images/Tunnel_of_terror_wheelchair.JPG">
+                </a>
+                <a href="#" target="_blank">
                   <img src="./assets/images/Washington_memorial_sunset.JPG">
+                </a>
+                <a href="#" target="_blank">
                   <img src="./assets/images/pinehurst_lake.JPG">
-                </div>
-                </div>
+                </a>
               </div>
-            </div>
-            <div class="row" id="contact">
-              <div class="column left" id="title">
-                <h1>Contact Me!</h1>
-              </div>
-              <div class="column right" id="contactInfo">
-                <nav class ="button">
-                  <ul>
-                    <button class="up"><a href="#">651-964-5340</a></button class="up">
-                    <button class="up"><a href="#">bj.severson34@gmail.com</a></button class="up">
-                    <button class="up"><a href="#">GitHub</a></button class="up">
-                    <button class="up"><a href="#">Twitter</a></button class="up">
-                    <button class="up"><a href="#">Spotify</a></button class="up">
-                  </ul>
-                </nav>
-              </div>
-            </div>
-          </div>
+            </article>
+          </nav>
+          <nav class="row" id="contact">
+            <aside class="column left" id="title">
+              <h2>Contact Me!</h2>
+            </aside>
+            <article class="column right" id="contactInfo">
+              <nav class ="button">
+                <ul>
+                  <button class="up"><a href="tel:6519645340">651-964-5340</a></button class="up">
+                  <button class="up"><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSDXmnJPdNlVnPScfBhBtnTKjGnNrTPrnHNGNWzdMpFVCmmqPsRVjHcwQrRSMwzfdfZkrplh">
+                    bj.severson34@gmail.com</a></button class="up">
+                  <button class="up"><a href="https://github.com/Bjornton">GitHub</a></button class="up">
+                  <button class="up"><a href="https://www.linkedin.com/in/robert-severson-069794234/">LinkedIn</a></button class="up">
+                  <button class="up"><a href="https://open.spotify.com/user/6tvf39jnoj9zu21fmi2nv0rf9">Spotify</a></button class="up">
+                </ul>
+              </nav>
+            </article>
+          </nav>
         </section>
       </main>
     </body>
