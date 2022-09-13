@@ -109,9 +109,9 @@ button {
     height: 100%; 
 }
 
-.grid {
+#pictures .grid {
     --gap: 16px;
-    --num-cols: 3;
+    --num-cols: 4;
     --row-height: 300px;
     
     box-sizing: border-box;
@@ -122,18 +122,6 @@ button {
     grid-auto-rows: var(--row-height);
     gap: var(--gap);
     position: relative;
-}
-
-.col1 {
-    flex: 2 2 40%;
-}
-
-.col2 {
-    flex: 1 1 30%;
-}
-
-.col3 {
-    flex: 1 1 30%;
 }
 
 .grid img {
@@ -148,6 +136,11 @@ button {
     filter: blur(0);
 }
 
+.grid-big{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
 #contact .left {
     width: 25%;
     text-align: right;
@@ -155,7 +148,7 @@ button {
     outline: none;   
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width:1024px) {
     .grid {
         --num-cols: 1;
         --row-height: 100px;
